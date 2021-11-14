@@ -1,0 +1,10 @@
+{
+	id: "5A3763F3A9366667"
+	group: ""
+	order_index: 7
+	filename: "rats"
+	title: "Rats"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

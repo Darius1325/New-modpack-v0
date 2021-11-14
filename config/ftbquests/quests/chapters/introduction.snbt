@@ -1,0 +1,10 @@
+{
+	id: "110E203EADB30D0F"
+	group: ""
+	order_index: 0
+	filename: "introduction"
+	title: "Introduction"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

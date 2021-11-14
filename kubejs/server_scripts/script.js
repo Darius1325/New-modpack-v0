@@ -163,6 +163,7 @@ onEvent('recipes', event => {
 
 	event.remove({id: 'industrialforegoing:iron_gear'})
 	event.remove({id: 'industrialforegoing:gold_gear'})
+	event.remove({id: 'industrialforegoing:diamond_gear'})
 	event.remove({id: 'thermal:parts/copper_gear'})
 	event.remove({id: 'thermal:parts/tin_gear'})
 	event.remove({id: 'thermal:parts/silver_gear'})
@@ -173,6 +174,14 @@ onEvent('recipes', event => {
 	event.remove({id: 'thermal:parts/constantan_gear'})
 	event.remove({id: 'thermal:parts/electrum_gear'})
 	event.remove({id: 'thermal:parts/invar_gear'})
+	event.remove({id: 'thermal:parts/lapis_gear'})
+	event.remove({id: 'thermal:parts/diamond_gear'})
+	event.remove({id: 'thermal:parts/emerald_gear'})
+	event.remove({id: 'thermal:parts/quartz_gear'})
+	event.remove({id: 'thermal:parts/lead_gear'})
+	event.remove({id: 'thermal:parts/signalum_gear'})
+	event.remove({id: 'thermal:parts/lumium_gear'})
+	event.remove({id: 'thermal:parts/enderium_gear'})
 
 	event.remove({id: 'thermal:fire_charge/bronze_ingot_4'})
 	event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
@@ -261,10 +270,22 @@ onEvent('recipes', event => {
 
 	immersivePress(event, "immersiveengineering:mold_rod", "createaddition:iron_rod", 2, "forge:ingots/iron", 1, 2400)
 	immersivePress(event, "immersiveengineering:mold_rod", "createaddition:gold_rod", 2, "forge:ingots/gold", 1, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:lapis_gear", 1, "forge:gems/lapis", 4, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:diamond_gear", 1, "forge:gems/diamond", 4, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:emerald_gear", 1, "forge:gems/emerald", 4, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:quartz_gear", 1, "forge:gems/quartz", 4, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:signalum_gear", 1, "forge:ingots/signalum", 4, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:lumium_gear", 1, "forge:ingots/lumium", 4, 2400)
+	immersivePress(event, "immersiveengineering:mold_gear", "thermal:enderium_gear", 1, "forge:ingots/enderium", 4, 2400)
 
 	intdynSqueeze(event, "forge:ores/iron", "thermal:iron_dust", "thermal:iron_dust", 0.75)
 	intdynMechSqueeze(event, "forge:ores/iron", "thermal:iron_dust", 2,"thermal:iron_dust", 0.5)
 	intdynSqueeze(event, "forge:ores/gold", "thermal:gold_dust", "thermal:gold_dust", 0.75)
 	intdynMechSqueeze(event, "forge:ores/gold", "thermal:gold_dust", 2,"thermal:gold_dust", 0.5)
+
+	thermalPressGear(event, "forge:gems_lapis", 4, "thermal:lapis_gear")
+	thermalPressGear(event, "forge:gems_diamond", 4, "thermal:diamond_gear")
+	thermalPressGear(event, "forge:gems_emerald", 4, "thermal:emerald_gear")
+	thermalPressGear(event, "forge:gems_quartz", 4, "thermal:quartz_gear")
 
 })

@@ -1,0 +1,10 @@
+{
+	id: "285CC728489C96FD"
+	group: ""
+	order_index: 14
+	filename: "seeds"
+	title: "Seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

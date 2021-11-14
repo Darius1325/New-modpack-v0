@@ -1,0 +1,10 @@
+{
+	id: "7E43618681ED8C8C"
+	group: ""
+	order_index: 15
+	filename: "astral_sorcery"
+	title: "Astral Sorcery"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

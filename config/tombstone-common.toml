@@ -93,9 +93,6 @@
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_request_teleport = -1
-	#Cooldown in minutes to use the perk Tomb Raider [60..1440|default:60]
-	#Range: 60 ~ 1440
-	cooldown_tomb_raiding = 60
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
@@ -170,8 +167,6 @@
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
-	#Restricts the effect of Shadow Step to players [false/true|default:true]
-	restrict_shadow_step_to_player = true
 
 #Options related to the command recovery and auto-save of players
 [recovery]

@@ -147,6 +147,10 @@ onEvent('item.tags', event => {
     removeTagFromList('forge:ingots/osmium', osmiumIngots, event)
     removeTagFromList('forge:ingots', osmiumIngots, event)
 
+    //DIAMOND
+    event.remove('forge:gears/diamond', 'titanium:diamond_gear')
+    event.remove('forge:gears', 'titanium:diamond_gear')
+
     //CHISEL
     // addChiselTag(event, 'copper', copperBlocks)
     // addChiselTag(event, 'tin', tinBlocks)

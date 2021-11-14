@@ -1,0 +1,10 @@
+{
+	id: "1BB4EACA83A57960"
+	group: ""
+	order_index: 2
+	filename: "miscellanous"
+	title: "Miscellanous"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

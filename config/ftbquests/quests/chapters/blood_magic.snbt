@@ -1,0 +1,10 @@
+{
+	id: "64CB23308E5469C8"
+	group: ""
+	order_index: 12
+	filename: "blood_magic"
+	title: "Blood Magic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
