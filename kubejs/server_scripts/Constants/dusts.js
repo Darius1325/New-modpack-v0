@@ -29,17 +29,39 @@ const aluminiumDusts = [
 ]
 
 const nickelDusts = [
-    'immersiveengineering:dust_nickel'
+    'immersiveengineering:dust_nickel',
+    'janoeo:nickel_dust'
 ]
 
 const ironDusts = [
     'janoeo:iron_dust',
     'mekanism:dust_iron',
-    'appliedenergistics2:iron_dust'
+    'appliedenergistics2:iron_dust',
+    'immersiveengineering:dust_iron'
 ]
 
 const goldDusts = [
     'janoeo:gold_dust',
     'mekanism:dust_gold',
-    'appliedenergistics2:gold_dust'
+    'appliedenergistics2:gold_dust',
+    'immersiveengineering:dust_gold',
+    'bloodmagic:goldsand'
+]
+
+const uraniumDusts = [
+    'janoeo:uranium_dust',
+    'mekanism:dust_uranium',
+    'bigreactors:yellorium_dust'
+]
+
+const constantanDusts = [
+    'immersiveengineering:dust_constantan'
+]
+
+const electrumDusts = [
+    'immersiveengineering:dust_electrum'
+]
+
+const steelDusts = [
+    'immersiveengineering:dust_steel'
 ]

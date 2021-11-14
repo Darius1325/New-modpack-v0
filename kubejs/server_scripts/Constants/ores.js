@@ -35,3 +35,13 @@ const aluminiumOres = [
 const nickelOres = [
     'immersiveengineering:ore_nickel'
 ]
+
+const uraniumOres = [
+    'janoeo:uranium_ore',
+    'immersiveengineering:ore_uranium',
+    'bigreactors:yellorite_ore'
+]
+
+const osmiumOres = [
+    'janoeo:osmium_ore'
+]

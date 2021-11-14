@@ -39,3 +39,25 @@ const aluminiumIngots = [
 const nickelIngots = [
     'immersiveengineering:ingot_nickel'
 ]
+
+const uraniumIngots = [
+    'janoeo:uranium_ingot',
+    'mekanism:ingot_uranium',
+    'bigreactors:yellorium_ingot'
+]
+
+const constantanIngots = [
+    'immersiveengineering:ingot_constantan'
+]
+
+const electrumIngots = [
+    'immersiveengineering:ingot_electrum'
+]
+
+const steelIngots = [
+    'mekanism:ingot_steel'
+]
+
+const osmiumIngots = [
+    'janoeo:osmium_ingot'
+]

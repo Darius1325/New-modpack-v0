@@ -27,3 +27,23 @@ const bronzeNuggets = [
 const nickelNuggets = [
     'immersiveengineering:nugget_nickel'
 ]
+
+const netheriteNuggets = [
+    'createdeco:netherite_nugget'
+]
+
+const uraniumNuggets = [
+    'mekanism:nugget_uranium'
+]
+
+const constantanNuggets = [
+    'immersiveengineering:nugget_constantan'
+]
+
+const electrumNuggets = [
+    'immersiveengineering:nugget_electrum'
+]
+
+const steelNuggets = [
+    'mekanism:nugget_steel'
+]

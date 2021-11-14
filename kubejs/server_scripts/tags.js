@@ -96,6 +96,57 @@ onEvent('item.tags', event => {
     event.remove('forge:rods/gold', 'immersiveposts:stick_gold')
     event.remove('forge:rods/all_metal', 'immersiveposts:stick_gold')
 
+    //NETHERITE
+    removeTagFromList('forge:nuggets/netherite', netheriteNuggets, event)
+
+    //URANIUM
+    removeTagFromList('forge:ores/uranium', uraniumOres, event)
+    removeTagFromList('forge:ingots/uranium', uraniumIngots, event)
+    removeTagFromList('forge:ingots', uraniumIngots, event)
+    removeTagFromList('forge:nuggets/uranium', uraniumNuggets, event)
+    removeTagFromList('forge:nuggets', uraniumNuggets, event)
+    removeTagFromList('forge:dusts/uranium', uraniumDusts, event)
+    removeTagFromList('forge:dusts', uraniumDusts, event)
+    removeTagFromList('forge:storage_blocks/uranium', uraniumBlocks, event)
+    event.remove('forge:ingots/yellorium', 'bigreactors:yellorium_ingot')
+    event.remove('forge:dusts/yellorium', 'bigreactors:yellorium_dust')
+
+    //CONSTANTAN
+    removeTagFromList('forge:ingots/constantan', constantanIngots, event)
+    removeTagFromList('forge:ingots', constantanIngots, event)
+    removeTagFromList('forge:nuggets/constantan', constantanNuggets, event)
+    removeTagFromList('forge:nuggets', constantanNuggets, event)
+    removeTagFromList('forge:dusts/constantan', constantanDusts, event)
+    removeTagFromList('forge:dusts', constantanDusts, event)
+    removeTagFromList('forge:storage_blocks/constantan', constantanBlocks, event)
+    removeTagFromList('forge:plates/constantan', constantanPlates, event)
+    removeTagFromList('forge:plates', constantanPlates, event)
+
+    //ELECTRUM
+    removeTagFromList('forge:ingots/electrum', electrumIngots, event)
+    removeTagFromList('forge:ingots', electrumIngots, event)
+    removeTagFromList('forge:nuggets/electrum', electrumNuggets, event)
+    removeTagFromList('forge:nuggets', electrumNuggets, event)
+    removeTagFromList('forge:dusts/electrum', electrumDusts, event)
+    removeTagFromList('forge:dusts', electrumDusts, event)
+    removeTagFromList('forge:storage_blocks/electrum', electrumBlocks, event)
+    removeTagFromList('forge:plates/electrum', electrumPlates, event)
+    removeTagFromList('forge:plates', electrumPlates, event)
+
+    //STEEL
+    removeTagFromList('forge:ingots/steel', steelIngots, event)
+    removeTagFromList('forge:ingots', steelIngots, event)
+    removeTagFromList('forge:nuggets/steel', steelNuggets, event)
+    removeTagFromList('forge:nuggets', steelNuggets, event)
+    removeTagFromList('forge:dusts/steel', steelDusts, event)
+    removeTagFromList('forge:dusts', steelDusts, event)
+    removeTagFromList('forge:storage_blocks/steel', steelBlocks, event)
+
+    //OSMIUM
+    removeTagFromList('forge:ores/osmium', osmiumOres, event)
+    removeTagFromList('forge:ingots/osmium', osmiumIngots, event)
+    removeTagFromList('forge:ingots', osmiumIngots, event)
+
     //CHISEL
     // addChiselTag(event, 'copper', copperBlocks)
     // addChiselTag(event, 'tin', tinBlocks)
@@ -113,4 +164,5 @@ onEvent('block.tags', event => {
     removeTagFromList('forge:ores/zinc', zincOres, event)
     removeTagFromList('forge:ores/aluminum', aluminiumOres, event)
     removeTagFromList('forge:ores/nickel', nickelOres, event)
+    removeTagFromList('forge:ores/osmium', osmiumOres, event)
 })

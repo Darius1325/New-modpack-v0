@@ -27,3 +27,20 @@ const bronzeBlocks = [
 const nickelBlocks = [
     'immersiveengineering:storage_nickel'
 ]
+
+const uraniumBlocks = [
+    'mekanism:block_uranium',
+    'bigreactors:yellorium_block'
+]
+
+const constantanBlocks = [
+    'immersiveengineering:storage_constantan'
+]
+
+const electrumBlocks = [
+    'immersiveengineering:storage_electrum'
+]
+
+const steelBlocks = [
+    'mekanism:block_steel'
+]

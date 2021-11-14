@@ -94,6 +94,33 @@ function createCrushing(event, inputTag, resultItem, resultNb, processTime) {
       })
 }
 
+function createMixingIngots(event, inputTag1, inputTag2, resultItem, resultNb) {
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [
+          {
+            "tag": inputTag1
+          },
+          {
+            "tag": inputTag2
+          }
+        ],
+        "results": [
+          {
+            "item": resultItem,
+            "count": resultNb
+          }
+        ],
+        "heatRequirement": "heated",
+        "conditions": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+          }
+        ]
+    })
+}
+
 //MEKANISM
 function mekaCombine(event, inputTag, inputNb, extraInputTag, outputItem) {
     event.custom({
@@ -157,7 +184,7 @@ function mekaCrush(event, inputTag, outputItem, outputNb) {
 }
 
 function mekaUpdateDusts(event, type) {
-    mekaCombine(event, "forge:dusts/"+type, 8, "forge:cobblestone", "thermal:"+type+"_ore")
+  mekaCombine(event, "forge:dusts/"+type, 8, "forge:cobblestone", "thermal:"+type+"_ore")
 	mekaEnrich(event, "forge:ores/"+type, "thermal:"+type+"_dust", 2)
 	mekaEnrich(event, "mekanism:dirty_dusts/"+type, "thermal:"+type+"_dust", 1)
 	mekaCrush(event, "forge:ingots/"+type, "thermal:"+type+"_dust", 1)

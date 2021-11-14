@@ -28,3 +28,11 @@ const goldPlates = [
     'immersiveengineering:plate_gold',
     'create:golden_sheet'
 ]
+
+const constantanPlates = [
+    'immersiveengineering:plate_constantan'
+]
+
+const electrumPlates = [
+    'immersiveengineering:plate_electrum'
+]
