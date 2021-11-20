@@ -1,0 +1,22 @@
+{
+  "type": "extendedcrafting:shapeless_table",
+  "tier": 4,
+  "ingredients": [
+    { "item": "mysticalagriculture:soulium_ingot" }, { "item": "mysticalagradditions:insanium_ingot" }, { "item": "mysticalagriculture:supremium_ingot" }, { "item": "mysticalagriculture:imperium_ingot" }, { "item": "mysticalagriculture:tertium_ingot" }, { "item": "mysticalagriculture:prudentium_ingot" }, { "item": "mysticalagriculture:inferium_ingot" }, { "item": "mysticalagriculture:prosperity_ingot" }, { "item": "mekanism:ingot_osmium" },
+
+    { "item": "immersiveengineering:ingot_hop_graphite" }, { "item": "industrialforegoing:pink_slime_ingot" }, { "item": "draconicevolution:awakened_draconium_ingot" }, { "item": "draconicevolution:draconium_ingot" }, { "item": "create:zinc_ingot" }, { "item": "immersiveengineering:ingot_uranium" }, { "item": "immersiveengineering:ingot_steel" }, { "item": "thermal:nickel_ingot" }, { "item": "create:brass_ingot" },
+
+    { "item": "mekanism:ingot_refined_obsidian" }, { "item": "iceandfire:dragonsteel_fire_ingot" }, { "item": "botania:manasteel_ingot" }, { "item": "betterendforge:terminite_ingot" }, { "item": "betterendforge:thallasium_ingot" }, { "item": "cagedmobs:star_infused_netherite_ingot" }, { "item": "iceandfire:ghost_ingot" }, { "item": "mekanism:ingot_refined_glowstone" }, { "item": "betterendforge:aeternium_ingot" },
+
+    { "item": "botania:elementium_ingot" }, { "item": "botania:gaia_ingot" },{ "item": "minecraft:netherite_ingot" }, { "item": "minecraft:gold_ingot" }, { "item": "iceandfire:dragonsteel_ice_ingot" }, { "item": "iceandfire:dragonsteel_lightning_ingot" }, { "item": "minecraft:iron_ingot" }, { "item": "astralsorcery:starmetal_ingot" }, { "item": "botania:terrasteel_ingot" },
+
+    { "item": "extendedcrafting:ender_ingot" }, { "item": "thermal:lumium_ingot" }, { "item": "thermal:signalum_ingot" }, { "item": "thermal:constantan_ingot" }, { "item": "thermal:invar_ingot" }, { "item": "thermal:electrum_ingot" }, { "item": "thermal:bronze_ingot" }, { "item": "janoeo:aluminium_ingot" }, { "item": "extendedcrafting:black_iron_ingot" }, 
+
+    { "item": "extendedcrafting:redstone_ingot" }, { "item": "thermal:enderium_ingot" }, { "item": "tconstruct:cobalt_ingot" }, { "item": "tconstruct:slimesteel_ingot" }, { "item": "tconstruct:tinkers_bronze_ingot" }, { "item": "tconstruct:rose_gold_ingot" }, { "item": "tconstruct:pig_iron_ingot" }, { "item": "tconstruct:queens_slime_ingot" }, { "item": "tconstruct:manyullyn_ingot" }, 
+
+    { "item": "tconstruct:hepatizon_ingot" }, { "item": "byg:pendorite_ingot" }, { "item": "twilightforest:ironwood_ingot" }, { "item": "twilightforest:fiery_ingot" }, { "item": "twilightforest:knightmetal_ingot" }, { "item": "thermal:copper_ingot" }, { "item": "thermal:tin_ingot" }, { "item": "thermal:lead_ingot" }, { "item": "thermal:silver_ingot" }, 
+
+    { "item": "mythicbotany:alfsteel_ingot" }, { "item": "rats:oratchalcum_ingot" }
+  ],
+  "result": { "item": "extendedcrafting:the_ultimate_ingot", "count": 1 }
+}
